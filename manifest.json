@@ -1,0 +1,16 @@
+{
+  "name": "Prompt xyz",
+  "description": "Improve your prompts",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
