@@ -1,4 +1,4 @@
-# How to add this extension ?
+# How to add this extension to chrome ?
 
 Steps : 
 
